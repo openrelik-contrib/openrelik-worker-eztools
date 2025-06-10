@@ -41,7 +41,7 @@ This worker provides task-specific configurations through the OpenRelik UI when 
 
 TODO: figure out the output format
 * **Output File Extension:** The desired file extension for the output file that will store the captured STDOUT (e.g., txt, csv, json).
-* **Output Data Type (Optional):** A specific data type string for OpenReLiK's internal metadata tracking (e.g., `lnk_file_analysis`, `recycle_bin_parsed`).
+* **Output Data Type (Optional):** A specific data type string for OpenRelik's internal metadata tracking (e.g., `lnk_file_analysis`, `recycle_bin_parsed`).
 
 ## Code Coverage
 

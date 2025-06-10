@@ -67,7 +67,7 @@ def lecmd_command(
     """
     # Ensure task_config is not None, providing an empty dict if it is,
     # as _run_ez_tool expects it.
-    # The OpenReLiK core should always provide this, but defensive coding is good.
+    # The OpenReliK core should always provide this, but defensive coding is good.
     effective_task_config = task_config if task_config is not None else {}
 
     # Path to the dotnet executable (installed via dotnet-install.sh, typically in ~/.dotnet/dotnet)

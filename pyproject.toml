@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "openrelik-worker-TEMPLATE-WORKER-NAME"
+name = "openrelik-worker-eztools"
 version = "0.1.0"
-description = "Description of the worker"
-authors = ["YOUR NAME <email@example.com>"]
+description = "Worker for multiple Eric Zimmerman tools"
+authors = ["Alexander Jäger <mail@alexanderjaeger.de>"]
 readme = "README.md"
 package-mode = false
 
