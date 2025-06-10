@@ -1,0 +1,18 @@
+# Showcase this worker on https://openrelik.org/marketplace
+publish: false
+
+# Worker Metadata. This section is required.
+display_name: Eric Zimmermann's EZTools Worker
+description: Executes selected command-line tools from Eric Zimmermann's EZTools suite (e.g., LECmd, RBCmd) on input files and captures their output.
+
+# Optional: Third-Party Tools Used by the Worker.
+tools:
+  - display_name: LECmd (LNK Explorer Command Line)
+    description: Parses LNK shortcut files and related artifacts.
+    url: https://ericzimmerman.github.io/#!index.md
+  - display_name: RBCmd (Recycle Bin Command Line)
+    description: Parses $I/$R files from the Recycle Bin.
+    url: https://ericzimmerman.github.io/#!index.md
+  - display_name: AppCompatCacheParser
+    description: Parses AppCompatCache (ShimCache) data from SYSTEM hives.
+    url: https://github.com/EricZimmerman/AppCompatCacheParser
