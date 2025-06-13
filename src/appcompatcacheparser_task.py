@@ -69,7 +69,8 @@ def appcompatcacheparser_command(
     """Run AppCompatCacheParser.exe on input SYSTEM hive files."""
     effective_task_config = task_config if task_config is not None else {}
 
-    dotnet_executable_path = os.path.expanduser("~/.dotnet/dotnet")
+    # Absolute path to the dotnet executable
+    dotnet_executable_path = os.path.expanduser("/usr/bin/dotnet")
     # Assuming AppCompatCacheParser.dll will be built and placed here, similar to other EZTools
     appcompatcacheparser_dll_path = (
         "/opt/AppCompatCacheParser_built_from_source/AppCompatCacheParser.dll"
