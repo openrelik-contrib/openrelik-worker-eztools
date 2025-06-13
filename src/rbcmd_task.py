@@ -62,7 +62,9 @@ def rbcmd_command(
     """Run RBCmd.exe on input Recycle Bin artifacts or directories."""
     effective_task_config = task_config if task_config is not None else {}
 
-    dotnet_executable_path = os.path.expanduser("~/.dotnet/dotnet")
+    
+    # Absolute path to the dotnet executable
+    dotnet_executable_path = os.path.expanduser("/usr/bin/dotnet")
     rbcmd_dll_path = "/opt/RBCmd_built_from_source/RBCmd.dll"
     executable_list_for_rbcmd = [dotnet_executable_path, rbcmd_dll_path]
 
