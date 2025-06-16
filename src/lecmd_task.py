@@ -71,7 +71,7 @@ def lecmd_command(
     effective_task_config = task_config if task_config is not None else {}
 
     # Path to the dotnet executable (installed via dotnet-install.sh, typically in ~/.dotnet/dotnet)
-    dotnet_executable_path = os.path.expanduser("~/.dotnet/dotnet")
+    dotnet_executable_path = os.path.expanduser("/usr/bin/dotnet")
     # Path to the LECmd.dll built from source
     lecmd_dll_path = "/opt/LECmd_built_from_source/LECmd.dll"
 
