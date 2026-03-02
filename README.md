@@ -20,7 +20,7 @@ Add the below configuration to the OpenRelik `docker-compose.yml` file.
 ```
 openrelik-worker-eztools:
     container_name: openrelik-worker-eztools
-    image: ghcr.io/openrelik/openrelik-worker-eztools:latest
+    image: ghcr.io/openrelik-contrib/openrelik-worker-eztools:latest
     restart: always
     environment:
       - REDIS_URL=redis://openrelik-redis:6379
